@@ -12,11 +12,7 @@ git clone https://github.com/filipppp/node-recover_broken_videofiles.git
 
 ### Prerequisites
 
-You'll need NodeJS installed on your system.
-
-```
-https://nodejs.org/en/
-```
+You'll need [NodeJS](https://nodejs.org/en/) installed on your system.
 
 ### Installing
 
@@ -32,7 +28,21 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Usage
 
-*Missing*
+
+```
+
+Usage: node main.js --ref working.mov --brokenDir myDirectoryWithBrokenFiles
+
+Options:
+  --help                          Show help                            [boolean]
+  --version                       Show version number                  [boolean]
+  -v, --verbose                   Show debug messages
+  --ref, --referenceFile          Reference to a working File captured with the
+                                  same camera / device                [required]
+  --brokenDir, --brokenDirectory  The directory with the broken Video files
+                                                                      [required]
+
+```
 
 
 
