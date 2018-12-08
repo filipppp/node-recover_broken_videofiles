@@ -1,4 +1,4 @@
-const exportObj = module.exports = {}
+const exportObj = module.exports = {};
 
 
 
@@ -14,7 +14,7 @@ exportObj.findCommands = (stdout) => {
       decodeCommand: array[decodeIndex].replace("\r", ""),
       encodeCommand: array[encodeIndex].replace("\r", "")
     }
-}
+};
 
 exportObj.transformCommand = (obj, id, idWithExt) => {
     String.prototype.replaceAll = function(search, replacement) {
@@ -37,4 +37,4 @@ exportObj.transformCommand = (obj, id, idWithExt) => {
         decodeCommand: decode,
         encodeCommand: encode
     };
-} 
+};
